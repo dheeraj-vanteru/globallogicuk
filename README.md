@@ -1,5 +1,22 @@
 # DevOps Tech Test
 
+## SOLUTION 
+
+### Commands To run 
+
+To execute db update command
+
+``` sh
+python3 db-update.py dbscripts dev mysql_container devopstt 123456
+```
+
+For executing tests
+
+``` sh
+pytest test
+```
+
+
 ## Preperation
 
 Please Clone this repository and push it up to your own github repository.
@@ -115,3 +132,4 @@ Password: 123456
 Database name: devopstt
 Database host: mysql_container
 ```
+
