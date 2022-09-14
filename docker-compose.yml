@@ -27,5 +27,7 @@ services:
     restart: on-failure
     volumes:
       - ./submissionscript/:/submissionscript/
+      - ./dbscripts/:/dbscripts/
+      - ./test/:/test/
     depends_on:
       - mysql_db_container
